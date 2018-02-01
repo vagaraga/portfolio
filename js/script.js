@@ -310,9 +310,7 @@ function navScroll(bar, framework, agile, arch, database){
 
 var top = $(window).scrollTop();
 var aboutScroll = $('#aboutMore').offset().top - 184;
-     console.log(top);
      var topSkill = $('#skills').height()-$(window).scrollTop();
-     // console.log(topSkill);
      if(topSkill < -300){
          bar.animate(0.92);
          framework.animate(0.9);
