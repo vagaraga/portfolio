@@ -41,7 +41,7 @@ h4,
 
 /* =============================== header ===================================== */
 .header {
-    background: url(../img/bannerImage.jpg) center fixed;
+    background: url(../img/bannerImage.jpg);
     /*opacity: 0.2;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
