@@ -311,12 +311,14 @@ function navScroll(bar, framework, agile, arch, database){
 var top = $(window).scrollTop();
 var aboutScroll = $('#aboutMore').offset().top - 184;
      var topSkill = $('#skills').height()-$(window).scrollTop();
-     if(topSkill < -300){
+     var progressComplete = false;
+     if(!progressComplete && topSkill < -300){
          bar.animate(0.92);
          framework.animate(0.9);
          agile.animate(0.85);
          arch.animate(0.80);
          database.animate(0.65);
+         progressComplete = false;
      }
 if (top > aboutScroll) {
 
